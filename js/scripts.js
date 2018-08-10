@@ -4,8 +4,8 @@ $(document).ready(function() {
     var theirName = $("input#visitornameInput").val();
     $(".showthemtheirName").text(theirName);
 
+    event.preventDefault();
 
-    var choseBack = $("#frontVsbackend").val;
     var choseFront = $("#frontVsbackend").val;
     var choseVisual = $("#visualVsdata").val;
     var choseData = $("#visualVsdata").val;
@@ -19,25 +19,27 @@ $(document).ready(function() {
     var choseTraditional = $("#language").val;
     var choseAtlas = $("#sites").val;
     var choseHulu = $("#sites").val;
+console.log(choseFront);
+  });
+});
 
-
-    $(".questions").hide();
-          if (choseBack)  {
-          $("#behindorSitesdata").show();
-        } else if (choseFront) {
-          $("#language").show();
-
-          
-        } else if (choseFront) {
-          $("#language").show();
-        } else if (choseFront) {
-          $("#language").show();
-        } else if (choseFront) {
-          $("#language").show();
-        } else if (choseFront) {
-          $("#language").show();
-        } else if (choseFront) {
-          $("#language").show();
+    // $(".questions").hide();
+    //       if (choseBack)  {
+    //       $("#behindorSitesdata").show();
+    //     } else if (choseFront) {
+    //       $("#language").show();
+    //
+    //
+    //     } else if (choseFront) {
+    //       $("#language").show();
+    //     } else if (choseFront) {
+    //       $("#language").show();
+    //     } else if (choseFront) {
+    //       $("#language").show();
+    //     } else if (choseFront) {
+    //       $("#language").show();
+    //     } else if (choseFront) {
+    //       $("#language").show();
 
 
 
@@ -56,8 +58,3 @@ $(document).ready(function() {
     // } else {
     //   prompt("please try again");
     // });
-    event.preventDefault();
-  });
-
-
-});
