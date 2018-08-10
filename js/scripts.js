@@ -1,27 +1,22 @@
 $(document).ready(function() {
   $("#nameForm").submit(function(event) {
-
+    event.preventDefault();
     var theirName = $("input#visitornameInput").val();
     $(".showthemtheirName").text(theirName);
+  });
 
+  $("#questionsForm").submit(function(event) {
     event.preventDefault();
-
-    var choseFront = $("#frontVsbackend").val;
-    var choseVisual = $("#visualVsdata").val;
-    var choseData = $("#visualVsdata").val;
-    var choseDatasites = $("#behindorSitesdata").val;
-    var choseBehind = $("#behindorSitesdata").val;
-    var choseShare = $("#whattoBuild").val;
-    var choseStack = $("#whattoBuild").val;
-    var choseYay = $("#problemsolving").val;
-    var choseNay = $("#problemsolving").val;
-    var choseObject = $("#language").val;
-    var choseTraditional = $("#language").val;
-    var choseAtlas = $("#sites").val;
-    var choseHulu = $("#sites").val;
-console.log(choseFront);
+    var thisisIt = $("#gender").val();
+    $(".questions").hide();
+      if (thisisIt === "a") {
+      $("#visualVsdata").show();
+    };
   });
 });
+
+
+
 
     // $(".questions").hide();
     //       if (choseBack)  {
