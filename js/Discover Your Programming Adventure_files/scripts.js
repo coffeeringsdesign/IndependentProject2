@@ -3,7 +3,6 @@ $(document).ready(function() {
     event.preventDefault();
     var theirName = $("input#visitornameInput").val();
     $(".showthemtheirName").text(theirName);
-    $("#frontVsbackend").show();
   });
 
   $("#questionsForm").submit(function(event) {
@@ -13,49 +12,50 @@ $(document).ready(function() {
     var choicefrontBack = $("#frontVsbackend").val();
       if (choicefrontBack === "front") {
       $("#visualVsdata").show();
-    } else (choicefrontBack === "back")
+    } else (choicefrontBack === "back") 
       $("#behindorSitesdata").show();
-
+    }
     var choiceVisData =
     $("#visualVsdata").val();
       if (choiceVisData === "visual") {
       $("#sites").show();
-    } else (choiceVisData === "data")
+    } else (choiceVisData === "data") {
       $("#language").show();
-
+    }
     var choiceScenesData =
     $("#behindorSitesdata").val()
       if (choiceScenesData === "datasites") {
       $("#ruby").show();
-    } else (choiceScenesData === "behindscenes")
+    } else (choiceScenesData === "behindscenes") {
       $("#whattoBuild").show();
-
+    }
     var choicetoBuild =
-    $("#whattoBuild").val();
+    $("#whattoBuild")val();
       if (choicetoBuild === "sharepoint") {
       $("#csharp").show();
-    } else (choicetoBuild === "stack")
+    } else (choicetoBuild === "stack") {
       $("#csharp").show();
-
+    }
     var likeProblems =
-    $("#problemsolving").val();
+    $("#problemsolving")val();
       if (likeProblems === "nayproblems") {
       $("#css").show();
-    } else (likeProblems === "yayproblems")
+    } else (likeProblems === "yayproblems") {
       $("#ruby").show();
-
+    }
     var whichLanguage =
     $("#language").val();
       if (whichLanguage === "object") {
       $("#ruby").show();
-    } else (whichLanguage === "traditional")
+    } else (whichLanguage === "traditional") {
       $("#css").show();
-
+    }
     var whichSites =
     $("#sites").val();
       if (whichSites === "atlassian") {
       $("#csharp").show();
-    } else (whichSites === "hulu")
+    } else (whichSites === "hulu") {
       $("#ruby").show();
+    }
   });
 });
