@@ -4,18 +4,18 @@ $(document).ready(function() {
     var theirName = $("input#visitornameInput").val();
     $(".showthemtheirName").text(theirName);
 
-
-    if ( -----------------) {
-      $("#javascript").show();
-    } else if (------------) {
-      $("#ruby").show();
-    } else if (------------) {
-      $("cSharp").show();
-    } else {
-      prompt("please try again");
-    });
-  
+    //
+    // if ( -----------------) {
+    //   $("#css").show();
+    // } else if (------------) {
+    //   $("#ruby").show();
+    // } else if (------------) {
+    //   $("cSharp").show();
+    // } else {
+    //   prompt("please try again");
+    // });
+    event.preventDefault();
   });
 
-event.preventDefault();
+
 });
