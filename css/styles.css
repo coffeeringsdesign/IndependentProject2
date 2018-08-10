@@ -31,6 +31,42 @@ h1 {
   display: none;
 }
 
-.questions {
+#css {
+  display: none;
+}
+
+#csharp {
+  display: none;
+}
+
+#ruby {
+  display: none;
+}
+
+/* #question1 {
+  display: none;
+} */
+
+#question2 {
+  display: none;
+}
+
+#question3 {
+  display: none;
+}
+
+#question4 {
+  display: none;
+}
+
+#question5 {
+  display: none;
+}
+
+#question6 {
+  display: none;
+}
+
+#question7 {
   display: none;
 }
