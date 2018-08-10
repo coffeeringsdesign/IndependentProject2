@@ -1,6 +1,10 @@
 $(document).ready(function() {
-  prompt("Welcome! Please enter your name:");
+  $("#nameForm")submit(function(event) {
+    event.preventDefault();
+    var theirName = $("input#visitornameInput").val();
+    $(".showthemtheirName").text(theirName);
+  });
 
 
 
-}
+});
