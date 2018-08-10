@@ -5,7 +5,17 @@ $(document).ready(function() {
     $(".showthemtheirName").text(theirName);
 
 
-
+    if ( -----------------) {
+      $("#javascript").show();
+    } else if (------------) {
+      $("#ruby").show();
+    } else if (------------) {
+      $("cSharp").show();
+    } else {
+      prompt("please try again");
+    });
+  
+  });
 
 event.preventDefault();
 });
