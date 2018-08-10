@@ -19,18 +19,14 @@ _This website uses javascript to guide a visitor through a series of questions t
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_I am yet unable to make my vision work. I've got two branches going one with all questions in one form and another with them each in their own form. The first question seems to be working but none after_
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
-
-## Sources
-
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_Please get in contact if you have any questions. I can be reached at kendra@coffeeringsdesign.com_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*DMI*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2018 **_Kendra Kelly_**
