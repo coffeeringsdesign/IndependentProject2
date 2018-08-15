@@ -3,7 +3,7 @@ $(document).ready(function() {
     event.preventDefault();
     var theirName = $("input#visitornameInput").val();
     $(".showthemtheirName").text(theirName);
-    $("#frontVsbackend").show();
+    $("#question1").show();
   });
 
   $("#questionsForm").click(function(event) {
@@ -11,16 +11,17 @@ $(document).ready(function() {
     event.preventDefault();
 
   var choicefrontBack = $("#frontOrBackend").val();
+    $("#question2").hide();
+    $("#question3").hide();
     if (choicefrontBack === "1") {
     $("#question2").show();
-    event.preventDefault();
   } else if (choicefrontBack === "2") {
     $("#question3").show();
-    event.preventDefault();
-  } else {
-    alert("please try again");
   }
-console.log(choicefrontBack);
+  // else if (choicefrontBack != "1" || choicefrontBack != "2") {
+  //   $(".form-group").hide();
+  // }
+
   var choiceVisData = $("#visualOrData").val();
     if (choiceVisData === "1") {
     $("#question4").show();
