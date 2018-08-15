@@ -6,74 +6,62 @@ $(document).ready(function() {
     $("#frontVsbackend").show();
   });
 
-  $("#questionsForm").submit(function(event) {
+  $("#questionsForm").click(function(event) {
     $(".questions").hide();
     event.preventDefault();
 
-    var whichSites =
-    $("#sites").val();
-      if (whichSites === "atlassian") {
-      $("#csharp").show();
-    } else { (whichSites === "hulu")
-      $("#ruby").show();
+  var choicefrontBack = $("#frontOrBackend").val();
+    if (choicefrontBack === "1") {
+    $("#question2").show();
+    event.preventDefault();
+  } else if (choicefrontBack === "2") {
+    $("#question3").show();
+    event.preventDefault();
+  } else {
+    alert("please try again");
+  }
+console.log(choicefrontBack);
+  var choiceVisData = $("#visualOrData").val();
+    if (choiceVisData === "1") {
+    $("#question4").show();
+    event.preventDefault();
+  } else if (choiceVisData === "2") {
+    $("#question5").show();
+    event.preventDefault();
+  } else {
+    alert("please try again");
+  }
+
+  var whichSites = $("#sites").val();
+    if (whichSites === "1") {
+    $("#cSharp").show();
+  } else if (whichSites === "2") {
+    $("#ruby").show();
+  } else {
+    alert("please try again");
+    event.preventDefault();
+  }
+
+  var whichLanguage = $("#language").val();
+    if (whichLanguage === "1") {
+    $("#ruby").show();
+  } else if (whichLanguage === "2") {
+    $("#css").show();
+  } else {
+    alert("please try again");
+    event.preventDefault();
+  }
+
+  var likeProblems = $("#problemsolving").val();
+    if (likeProblems === "1") {
+    $("#css").show();
+  } else if (likeProblems === "2") {
+    $("#ruby").show();
+    }else {
+      alert("please try again");
+      event.preventDefault();
     }
 
-    var whichSites =
-    $("#sites").val();
-      if (whichSites === "atlassian") {
-      $("#csharp").show();
-    } else { (whichSites === "hulu")
-      $("#ruby").show();
-    }
-
-    var choicefrontBack = $("#frontVsbackend").val();
-      if (choicefrontBack === "front") {
-      $("#question2").show();
-    } else { (choicefrontBack === "back")
-      $("#question3").show();
-    }
-
-    var whichLanguage =
-    $("#language").val();
-      if (whichLanguage === "object") {
-      $("#ruby").show();
-    } else { (whichLanguage === "traditional")
-      $("#css").show();
-    }
-
-    var likeProblems =
-    $("#problemsolving").val();
-      if (likeProblems === "nayproblems") {
-      $("#css").show();
-    } else { (likeProblems === "yayproblems")
-      $("#ruby").show();
-    }
-
-    var choicetoBuild =
-    $("#whattoBuild").val();
-      if (choicetoBuild === "sharepoint") {
-      $("#csharp").show();
-    } else { (choicetoBuild === "stack")
-      $("#csharp").show();
-    }
-
-    var choiceScenesData =
-    $("#behindorSitesdata").val()
-      if (choiceScenesData === "datasites") {
-      $("#ruby").show();
-    } else { (choiceScenesData === "behindscenes")
-      $("#question4").show();
-    }
-
-
-    var choiceVisData =
-    $("#visualVsdata").val();
-      if (choiceVisData === "visual") {
-      $("#question7").show();
-    } else { (choiceVisData === "data")
-      $("#question6").show();
-    }
   event.preventDefault();
   });
-
 });
