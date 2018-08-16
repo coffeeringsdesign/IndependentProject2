@@ -17,9 +17,34 @@ _This website uses javascript to guide a visitor through a series of questions t
 * _A browser such as Chrome will allow you to preview the site._
 * _I recommend git & github as version control._
 
-## Known Bugs
+## Objectives
 
-_I am yet unable to make my vision work. I've got two branches going one with all questions in one form and another with them each in their own form. The first question seems to be working but none after_
+_Code is clean, well-refactored, and easy-to-read. This includes correct indendation, spacing, and including only necessary comments and debugging tools.
+
+Commits are made regularly with clear messages that finish the phrase "It will…".
+
+Project README that includes, bare minimum:
+author name
+program name
+detailed setup instructions
+description
+copyright and license information
+
+Site uses branching to return the result.
+
+jQuery is used to show and hide the result.
+
+Form gathers input from the user.
+
+Variable names are descriptive of what they represent.
+
+Web page is styled using Bootstrap and custom CSS. xxxxxx
+
+The project is in a presentable, portfolio-quality state.
+
+Required functionality is in place by the Friday deadline.
+
+Project demonstrates understanding of concepts covered this week. If prompted, you are able to discuss your code with an instructor using correct terminology xxxxxx._
 
 ## Support and contact details
 
