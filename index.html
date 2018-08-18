@@ -26,62 +26,98 @@
         </form>
       </div>
         <!-- shows name -->
-      <div class="row">
-        <h3>Welcome <span class="showthemtheirName"></span>!</h3>
+      <div id="nameQuestion" class="row">
+        <h3>Welcome <span id="showthemtheirName"></span>!</h3>
         <h4>This site is meant to assist you in finding your programming track. Please read each question and choose the answer that best fits your interests.</h4>
       </div>
       <!-- questions -->
       <div class="row">
-        <form id="questionsForm">
 
-          <div id="question1" class="form-group">
-            <h3>Do you want to work on:  </h3>
-            <select class="custom-select" required id="frontOrBackend">
-              <option value="">Open this to choose an answer</option>
-              <option value="1">Making a beautiful interface for users to interact with.</option>
-              <option value="2">Working with data and how it is handled</option>
-            </select>
-            <!-- <button type="submit" class="btn btn-primary mb-2">Submit</button> -->
+        <form id="question1" class="question1Form">
+          <div class="form-group">
+            <label for="frontOrBackend">What are you more interested in:</label>
+            <div class="custom-select">
+              <label>
+                <input type="radio" name="frontOrBackend" value="1">Making a beautiful interface for users to interact with.
+              </label>
+              <label>
+                <input type="radio" name="frontOrBackend" value="2">Working with data and how it is handled
+              </label>
+            </div>
           </div>
-
-          <div id="question2" class="form-group hideMe">
-            <h3>I'd like to focus on sites that are: </h3>
-            <select class="custom-select" id="visualOrData" >
-              <option value="1">Gorgeous elements and a lot of interactivity.</option>
-              <option value="2">Ones that include features like user accounts.</option>
-            </select>
-            <!-- <button type="submit" class="btn btn-primary mb-2">Submit</button> -->
+          <div id="submitButton">
+            <button type="submit" class="btn btn-info">Submit</button>
           </div>
-
-
-          <div id="question3" class="form-group hideMe">
-            <h3>Do you like problem solving: </h3>
-            <select class="custom-select" id="problemsolving">
-              <option value="1">I can deal with it but I would prefer not to.</option>
-              <option value="2">LOVE IT!.</option>
-            </select>
-            <!-- <button type="submit" class="btn btn-primary mb-2">Submit</button> -->
-          </div>
-
-          <div id="question4" class="form-group hideMe">
-            <h3>I'd like to start with: </h3>
-            <select class="custom-select" id="language">
-              <option value="1">An easier to learn language based around objects.</option>
-              <option value="2">A more traditional language with more problem solving.</option>
-            </select>
-            <!-- <button type="submit" class="btn btn-primary mb-2">Submit</button> -->
-          </div>
-
-          <div id="question5" class="form-group hideMe">
-            <h3>I'd like to build: </h3>
-            <select class="custom-select" id="sites">
-              <option value="1">Sites such as Atlassian and Flipboard.</option>
-              <option value="2">Sites such as Hulu and Funny or Die.</option>
-            </select>
-            <!-- <button type="submit" class="btn btn-primary mb-2">Submit</button> -->
-          </div>
-
         </form>
+
+        <form id="question2" class="question2Form">
+          <div class="form-group hideMe">
+            <label for="visualOrData">I'd like to focus on sites that are:</label>
+            <div class="custom-select">
+              <label>
+                <input type="radio" name="visualOrData" value="1">Gorgeous elements and a lot of interactivity.
+              </label>
+              <label>
+                <input type="radio" name="visualOrData" value="2">Ones that include features like user accounts.
+              </label>
+            </div>
+          </div>
+          <div id="submitButton">
+            <button type="submit" class="btn btn-info">Submit</button>
+          </div>
+        </form>
+
+        <form id="question3" class="question3Form" action="index.html" method="post">
+          <div  class="form-group hideMe">
+            <label for="problemsolving">Do you like problem solving: </label>
+            <div class="custom-select">
+              <label>
+                <input type="radio" name="problemsolving" value="1">I can deal with it but I would prefer not to.
+              </label>
+              <label>
+                <input type="radio" name="problemsolving" value="2">LOVE IT!.
+              </label>
+            </div>
+          </div>
+          <div id="submitButton">
+            <button type="submit" class="btn btn-info">Submit</button>
+          </div>
+        </form>
+
+        <form id="question4" class="question4Form" action="index.html" method="post">
+          <div class="form-group hideMe">
+            <label for="language">I'd like to start with: </label>
+            <div class="custom-select">
+              <label>
+                <input type="radio" name="language" value="1">An easier to learn language based around objects.
+              </label>
+              <label>
+                <input type="radio" name="language" value="2">A more traditional language with more problem solving.
+              </label>
+            </div>
+          </div>
+          <div id="submitButton">
+            <button type="submit" class="btn btn-info">Submit</button>
+          </div>
+        </form>
+
+        <form id="question5" class="question5Form" action="index.html" method="post">
+          <div  class="form-group hideMe">
+            <label for="sites">I'd like to build: </label>
+            <div class="custom-select">
+              <label>
+                <input type="radio" name="sites" value="1">Sites such as Atlassian and Flipboard.
+              </label>
+              <label>
+                <input type="radio" name="sites" value="2">Sites such as Hulu and Funny or Die.
+              </label>
+            </div>
+          </div>
+          <div id="submitButton">
+            <button type="submit" class="btn btn-info">Submit</button>
+          </div>
+        </form>
+
       </div>
       <div class="row">
 
