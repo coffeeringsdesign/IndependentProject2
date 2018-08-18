@@ -19,32 +19,32 @@ _This website uses javascript to guide a visitor through a series of questions t
 
 ## Objectives
 
-_Code is clean, well-refactored, and easy-to-read. This includes correct indendation, spacing, and including only necessary comments and debugging tools.
+_Code is clean, well-refactored, and easy-to-read. This includes correct indendation, spacing, and including only necessary comments and debugging tools. X
 
-Commits are made regularly with clear messages that finish the phrase "It will…".
+Commits are made regularly with clear messages that finish the phrase "It will…". X
 
 Project README that includes, bare minimum:
-author name
-program name
-detailed setup instructions
-description
-copyright and license information
+author name X
+program name X
+detailed setup instructions X
+description X
+copyright and license information X
 
-Site uses branching to return the result.
+Site uses branching to return the result.  X
 
-jQuery is used to show and hide the result.
+jQuery is used to show and hide the result. X
 
-Form gathers input from the user.
+Form gathers input from the user. X
 
-Variable names are descriptive of what they represent.
+Variable names are descriptive of what they represent. X
 
-Web page is styled using Bootstrap and custom CSS. xxxxxx
+Web page is styled using Bootstrap and custom CSS. X
 
-The project is in a presentable, portfolio-quality state.
+The project is in a presentable, portfolio-quality state. X
 
-Required functionality is in place by the Friday deadline.
+Required functionality is in place by the Friday deadline. X
 
-Project demonstrates understanding of concepts covered this week. If prompted, you are able to discuss your code with an instructor using correct terminology xxxxxx._
+Project demonstrates understanding of concepts covered this week. If prompted, you are able to discuss your code with an instructor using correct terminology X._
 
 ## Support and contact details
 

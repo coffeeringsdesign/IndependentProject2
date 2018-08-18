@@ -2,10 +2,37 @@ h2 {
   text-align: center;
 }
 
+#title {
+  color: #97c0ae;
+}
+
+#subtitle {
+  color: #97c0ae;
+}
+
 .enterName {
   display: block;
-  margin-right: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 2px solid #97c0ae;
+  border-radius: 10px;
+  background-color: #bed8cc;
+  padding: 20px;
+}
+
+#visitornameInput {
+  display: block;
   margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+#allBody {
+  text-align: center;
+}
+
+label {
+  margin-left: 10px;
 }
 
 h1 {
@@ -18,13 +45,43 @@ h1 {
   height: 250px;
   margin-top: 35px;
   margin-bottom: 35px;
-  text-align:
+  text-align: center;
 }
 
-.questions {
+.btn {
+  align-items: center;
+}
+
+.row {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.questionForm {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 2px solid #97c0ae;
+  border-radius: 10px;
+  background-color: #bed8cc;
+  padding: 20px;
+}
+
+.questionForm {
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+}
+
+#nameQuestion {
+  display: block;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 2px solid #97c0ae;
+  border-radius: 10px;
+  background-color: #bed8cc;
+  padding: 20px;
+  padding-top: 0px;
 }
 
 .programmingLanguage {
@@ -33,19 +90,21 @@ h1 {
 
 #css {
   display: none;
+  color: #97c0ae;
+  margin-bottom: 50px;
 }
 
 #csharp {
   display: none;
+  color: #97c0ae;
+  margin-bottom: 50px;
 }
 
 #ruby {
   display: none;
+  color: #97c0ae;
+  margin-bottom: 50px;
 }
-
-/* .hideMe {
-  display: none;
-} */
 
 #nameQuestion {
   display: none;

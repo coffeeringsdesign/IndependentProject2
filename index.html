@@ -9,31 +9,26 @@
     <script src="js/bootstrap.js" type="text/javascript"></script>
     <title>Discover Your Programming Adventure</title>
   </head>
-  <body>
+  <body id=allBody>
     <div class="container">
-              <!-- title -->
-      <div class="row">
+      <div id="title" class="row">
         <h1>Discover Your Programming Adventure!</h1>
       </div>
-      <div class="row">
+      <div id="subtitle" class="row">
         <h2>Please enter your name below:</h2>
       </div>
-              <!-- name form -->
       <div class="row">
         <form id="nameForm" action="index.html" method="post">
            <input id="visitornameInput" type="text" class="form-control" placeholder="Enter your name">
-           <button type="submit" class="btn btn-primary">Submit</button>
+           <button type="submit" class="btn btn-light">Submit</button>
         </form>
       </div>
-        <!-- shows name -->
       <div id="nameQuestion" class="row">
         <h3>Welcome <span id="showthemtheirName"></span>!</h3>
         <h4>This site is meant to assist you in finding your programming track. Please read each question and choose the answer that best fits your interests.</h4>
       </div>
-      <!-- questions -->
       <div class="row">
-
-        <form id="question1" class="question1Form">
+        <form id="question1" class="questionForm">
           <div class="form-group">
             <label for="frontOrBackend">What are you more interested in:</label>
             <div class="custom-select">
@@ -46,28 +41,26 @@
             </div>
           </div>
           <div id="submitButton">
-            <button type="submit" class="btn btn-info">Submit</button>
+            <button type="submit" class="btn btn-secondary">Submit</button>
           </div>
         </form>
-
-        <form id="question2" class="question2Form">
+        <form id="question2" class="questionForm">
           <div class="form-group hideMe">
-            <label for="visualOrData">I'd like to focus on sites that are:</label>
+            <label for="visualOrData">I'd like to focus on sites that:</label>
             <div class="custom-select">
               <label>
-                <input type="radio" name="visualOrData" value="1">Gorgeous elements and a lot of interactivity.
+                <input type="radio" name="visualOrData" value="1">Have gorgeous elements and a lot of interactivity.
               </label>
               <label>
-                <input type="radio" name="visualOrData" value="2">Ones that include features like user accounts.
+                <input type="radio" name="visualOrData" value="2">Include features like user accounts.
               </label>
             </div>
           </div>
           <div id="submitButton">
-            <button type="submit" class="btn btn-info">Submit</button>
+            <button type="submit" class="btn btn-secondary">Submit</button>
           </div>
         </form>
-
-        <form id="question3" class="question3Form" action="index.html" method="post">
+        <form id="question3" class="questionForm">
           <div  class="form-group hideMe">
             <label for="problemsolving">Do you like problem solving: </label>
             <div class="custom-select">
@@ -80,11 +73,10 @@
             </div>
           </div>
           <div id="submitButton">
-            <button type="submit" class="btn btn-info">Submit</button>
+            <button type="submit" class="btn btn-secondary">Submit</button>
           </div>
         </form>
-
-        <form id="question4" class="question4Form" action="index.html" method="post">
+        <form id="question4" class="questionForm">
           <div class="form-group hideMe">
             <label for="language">I'd like to start with: </label>
             <div class="custom-select">
@@ -97,11 +89,10 @@
             </div>
           </div>
           <div id="submitButton">
-            <button type="submit" class="btn btn-info">Submit</button>
+            <button type="submit" class="btn btn-secondary">Submit</button>
           </div>
         </form>
-
-        <form id="question5" class="question5Form" action="index.html" method="post">
+        <form id="question5" class="questionForm">
           <div  class="form-group hideMe">
             <label for="sites">I'd like to build: </label>
             <div class="custom-select">
@@ -114,31 +105,24 @@
             </div>
           </div>
           <div id="submitButton">
-            <button type="submit" class="btn btn-info">Submit</button>
+            <button type="submit" class="btn btn-secondary">Submit</button>
           </div>
         </form>
-
       </div>
       <div class="row">
-
-        <!-- the final showing -->
         <div id="css" class="programmingLanguage">
-          <h1>Thanks for playing <span class="showthemtheirName"></span>!</h1>
+          <h1>Thanks for playing<span class="showthemtheirName"></span>!</h1>
           <h2>You should study CSS and React!</h2>
         </div>
-
         <div id="ruby" class="programmingLanguage">
-          <h1>Thanks for playing <span class="showthemtheirName"></span>!</h1>
+          <h1>Thanks for playing<span class="showthemtheirName"></span>!</h1>
           <h2>You should study Ruby!</h2>
         </div>
-
         <div id="csharp" class="programmingLanguage">
-          <h1>Thanks for playing <span class="showthemtheirName"></span>!</h1>
+          <h1>Thanks for playing<span class="showthemtheirName"></span>!</h1>
           <h2>You should study C# and .Net!</h2>
         </div>
-
       </div>
-
     </div>
   </body>
 </html>
