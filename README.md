@@ -1,6 +1,6 @@
-# _Programming Track Suggester_
+# _Programming Adventure
 
-#### _A website made to help applicants determine which programing language course they should choose._
+#### _A website made to help applicants determine which programing language course they should choose to study._
 
 #### By _**Kendra Kelly**_
 
