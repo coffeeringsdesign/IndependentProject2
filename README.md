@@ -7,7 +7,7 @@
 
 ## Description
 
-This website uses javascript to guide a visitor through a series of questions that should help them determine which programming language they might be interested in.}
+This website uses javascript to guide a visitor through a series of questions that should help them determine which programming language they might be interested in.
 
 ## Setup/Installation Requirements
 
@@ -24,11 +24,11 @@ Using Command Line:
 * Code is clean, well-refactored, and easy-to-read. This includes correct indendation, spacing, and including only necessary comments and debugging tools. 
 * Commits are made regularly with clear messages that finish the phrase "It will…". 
 * Project README that includes, bare minimum:
-* * author name 
-* * program name 
+  * author name 
+  * program name 
 * detailed setup instructions 
-* * description 
-* * copyright and license information .
+  * description 
+  * copyright and license information .
 * Site uses branching to return the result.  
 * jQuery is used to show and hide the result. 
 * Form gathers input from the user. 
