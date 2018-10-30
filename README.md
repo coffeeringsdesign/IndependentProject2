@@ -1,50 +1,65 @@
-# _Programming Adventure
+![Kendra Kelly Logo](/kkgithub.png)
+# Programming Adventure
 
-#### _A website made to help applicants determine which programing language course they should choose to study._
+#### A website made to help applicants determine which programing language course they should choose to study.
 
-#### By _**Kendra Kelly**_
+#### By **Kendra Kelly**
 
 ## Description
 
-_This website uses javascript to guide a visitor through a series of questions that should help them determine which programming language they might be interested in.}_
+This website uses javascript to guide a visitor through a series of questions that should help them determine which programming language they might be interested in.}
 
 ## Setup/Installation Requirements
 
-* Clone this repository: https://github.com/coffeeringsdesign/IndependentProject2.git
-* _Use an html editor like Atom to access and the html code._
-* _Atom will also allow you to acess the css stylesheets._
-* _Atom will also allow you to acess the css stylesheets._
-* _A browser such as Chrome will allow you to preview the site._
-* _I recommend git & github as version control._
+Using Command Line:
+1. ``git clone https://github.com/coffeeringsdesign/programming-adventure.git `` to clone the site.
+2. ``cd ~`` to navigate to base directory.
+3. ``cd Desktop `` to navigate to your desktop.
+4. ``cd programming-adventure`` to enter the site folder.
+5. ``atom .`` to open site with Atom.
+6. I recommend Atom to edit any html, javascript, or sass.
 
 ## Objectives
 
-_Code is clean, well-refactored, and easy-to-read. This includes correct indendation, spacing, and including only necessary comments and debugging tools. X
+* Code is clean, well-refactored, and easy-to-read. This includes correct indendation, spacing, and including only necessary comments and debugging tools. 
+* Commits are made regularly with clear messages that finish the phrase "It will…". 
+* Project README that includes, bare minimum:
+* * author name 
+* * program name 
+* detailed setup instructions 
+* * description 
+* * copyright and license information .
+* Site uses branching to return the result.  
+* jQuery is used to show and hide the result. 
+* Form gathers input from the user. 
+* Variable names are descriptive of what they represent. 
+* Web page is styled using Bootstrap and custom CSS. 
+* The project is in a presentable, portfolio-quality state. 
+* Required functionality is in place by the Friday deadline. 
+* Project demonstrates understanding of concepts covered this week. If prompted, you are able to discuss your code with an instructor using correct terminology.
 
-Commits are made regularly with clear messages that finish the phrase "It will…". X
+## Contribution Requirements
 
-Project README that includes, bare minimum:
-author name X
-program name X
-detailed setup instructions X
-description X
-copyright and license information X
+1. Clone the repo
+1. Make a new branch
+1. Commit and push your changes
+1. Create a PR
 
-Site uses branching to return the result.  X
+## Technologies Used
 
-jQuery is used to show and hide the result. X
+* JavaScript
+* jQuery 3.3.1
+* Bootstrap 4.1.3
 
-Form gathers input from the user. X
+## Suuport & Contact Details
 
-Variable names are descriptive of what they represent. X
+Please feel free to get in touch. Reach out to me at kendra@coffeeringsdesign.com.
 
-Web page is styled using Bootstrap and custom CSS. X
+## License
 
-The project is in a presentable, portfolio-quality state. X
+This software is licensed under the MIT license.
 
-Required functionality is in place by the Friday deadline. X
-
-Project demonstrates understanding of concepts covered this week. If prompted, you are able to discuss your code with an instructor using correct terminology X._
+Copyright (c) 2018 **Kendra Kelly**
 
 ## Support and contact details
 
